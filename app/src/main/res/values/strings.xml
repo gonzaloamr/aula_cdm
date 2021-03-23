@@ -2,6 +2,8 @@
     <string name="app_name">Primeiro Teste CDM</string>
     <string name="boas_vindas">Bem Vindo! Vamos para a próxima tela?</string>
     <string name="btn_logar">Login</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_pwd">Senha</string>
     <string name="btn_voltar">Voltar</string>
-    <!--<string name="app_name">PrimeiroTeste</string> -->
+    <string name="text_info">Informe Login e Senha</string>
 </resources>
