@@ -28,7 +28,10 @@ public class TelaDoisActivity extends AppCompatActivity {
         EditText editNome = (EditText)findViewById(R.id.editTextTextPersonName);
 
         EditText editSenha = (EditText)findViewById(R.id.editTextTextPassword);
+        if (editNome == editSenha) {
 
+        }
         startActivity(intent);
+
     }
 }
