@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PrimeiroTeste">
-        <activity android:name=".TelaDoisActivity"></activity>
+        <activity android:name=".PaginaTresActivity"></activity>
+        <activity android:name=".TelaDoisActivity" />
         <activity android:name=".PaginaUmActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

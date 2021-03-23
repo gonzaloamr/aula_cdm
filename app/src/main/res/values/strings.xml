@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Primeiro Teste CDM</string>
     <string name="boas_vindas">Bem Vindo! Vamos para a próxima tela?</string>
+    <string name="pagina_usuario">Bem Vindo ao aplicativo!!</string>
+    <string name="btn_logoff">Logout</string>
     <string name="btn_logar">Login</string>
     <string name="txt_login">Login</string>
     <string name="txt_pwd">Senha</string>
