@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 public class TelaDoisActivity extends AppCompatActivity {
 
@@ -22,7 +23,12 @@ public class TelaDoisActivity extends AppCompatActivity {
 
     public void abrePaginaTres (View view){
         Intent intent = new Intent(this,PaginaTresActivity.class);
-        startActivity(intent);
+        //intent.putExtra(name: "textPersonName")
 
+        EditText editNome = (EditText)findViewById(R.id.editTextTextPersonName);
+
+        EditText editSenha = (EditText)findViewById(R.id.editTextTextPassword);
+
+        startActivity(intent);
     }
 }
