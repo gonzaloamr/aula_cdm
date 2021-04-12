@@ -13,9 +13,12 @@ public class PaginaUmActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_um);
     }
-    public void abreTelaDois (View view){
-        Intent intent = new Intent(this,TelaDoisActivity.class);
+    public void abrePaginaTres (View view){
+        Intent intent = new Intent(this,PaginaTresActivity.class);
         startActivity(intent);
+    //public void abreTelaDois (View view){
+       // Intent intent = new Intent(this,TelaDoisActivity.class);
+       // startActivity(intent);
 
     }
 }

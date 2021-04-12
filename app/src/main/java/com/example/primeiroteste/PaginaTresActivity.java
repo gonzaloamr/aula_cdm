@@ -14,8 +14,8 @@ public class PaginaTresActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pagina_tres);
     }
 
-    public void voltaTelaDois (View view){
-        Intent intent = new Intent(this,TelaDoisActivity.class);
+    public void voltaPaginaUm (View view){
+        Intent intent = new Intent(this,PaginaUmActivity.class);
         startActivity(intent);
 
     }
